@@ -1,0 +1,14 @@
+C:\SourceCode\ecptest\testApiEcp.test\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\SourceCode\ecptest\testApiEcp.test\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\SourceCode\ecptest\testApiEcp.test\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\SourceCode\ecptest\testApiEcp.test\bin\Debug\netcoreapp2.1\testApiEcp.test.deps.json
+C:\SourceCode\ecptest\testApiEcp.test\bin\Debug\netcoreapp2.1\testApiEcp.test.runtimeconfig.json
+C:\SourceCode\ecptest\testApiEcp.test\bin\Debug\netcoreapp2.1\testApiEcp.test.runtimeconfig.dev.json
+C:\SourceCode\ecptest\testApiEcp.test\bin\Debug\netcoreapp2.1\testApiEcp.test.dll
+C:\SourceCode\ecptest\testApiEcp.test\bin\Debug\netcoreapp2.1\testApiEcp.test.pdb
+C:\SourceCode\ecptest\testApiEcp.test\obj\Debug\netcoreapp2.1\testApiEcp.test.csprojAssemblyReference.cache
+C:\SourceCode\ecptest\testApiEcp.test\obj\Debug\netcoreapp2.1\testApiEcp.test.csproj.CoreCompileInputs.cache
+C:\SourceCode\ecptest\testApiEcp.test\obj\Debug\netcoreapp2.1\testApiEcp.test.AssemblyInfoInputs.cache
+C:\SourceCode\ecptest\testApiEcp.test\obj\Debug\netcoreapp2.1\testApiEcp.test.AssemblyInfo.cs
+C:\SourceCode\ecptest\testApiEcp.test\obj\Debug\netcoreapp2.1\testApiEcp.test.dll
+C:\SourceCode\ecptest\testApiEcp.test\obj\Debug\netcoreapp2.1\testApiEcp.test.pdb

@@ -1,0 +1,26 @@
+C:\Users\PSI_Factory\Source\Repos\Prueba Ecp\testApi\bin\Debug\netcoreapp2.1\testEcpApi.deps.json
+C:\Users\PSI_Factory\Source\Repos\Prueba Ecp\testApi\bin\Debug\netcoreapp2.1\testEcpApi.runtimeconfig.json
+C:\Users\PSI_Factory\Source\Repos\Prueba Ecp\testApi\bin\Debug\netcoreapp2.1\testEcpApi.runtimeconfig.dev.json
+C:\Users\PSI_Factory\Source\Repos\Prueba Ecp\testApi\bin\Debug\netcoreapp2.1\testEcpApi.dll
+C:\Users\PSI_Factory\Source\Repos\Prueba Ecp\testApi\bin\Debug\netcoreapp2.1\testEcpApi.pdb
+C:\Users\PSI_Factory\Source\Repos\Prueba Ecp\testApi\obj\Debug\netcoreapp2.1\testEcpApi.csproj.CoreCompileInputs.cache
+C:\Users\PSI_Factory\Source\Repos\Prueba Ecp\testApi\obj\Debug\netcoreapp2.1\testEcpApi.RazorAssemblyInfo.cache
+C:\Users\PSI_Factory\Source\Repos\Prueba Ecp\testApi\obj\Debug\netcoreapp2.1\testEcpApi.RazorAssemblyInfo.cs
+C:\Users\PSI_Factory\Source\Repos\Prueba Ecp\testApi\obj\Debug\netcoreapp2.1\testEcpApi.AssemblyInfoInputs.cache
+C:\Users\PSI_Factory\Source\Repos\Prueba Ecp\testApi\obj\Debug\netcoreapp2.1\testEcpApi.AssemblyInfo.cs
+C:\Users\PSI_Factory\Source\Repos\Prueba Ecp\testApi\obj\Debug\netcoreapp2.1\testEcpApi.RazorTargetAssemblyInfo.cache
+C:\Users\PSI_Factory\Source\Repos\Prueba Ecp\testApi\obj\Debug\netcoreapp2.1\testEcpApi.dll
+C:\Users\PSI_Factory\Source\Repos\Prueba Ecp\testApi\obj\Debug\netcoreapp2.1\testEcpApi.pdb
+C:\SourceCode\ecptest\testApi\bin\Debug\netcoreapp2.1\testEcpApi.deps.json
+C:\SourceCode\ecptest\testApi\bin\Debug\netcoreapp2.1\testEcpApi.runtimeconfig.json
+C:\SourceCode\ecptest\testApi\bin\Debug\netcoreapp2.1\testEcpApi.runtimeconfig.dev.json
+C:\SourceCode\ecptest\testApi\bin\Debug\netcoreapp2.1\testEcpApi.dll
+C:\SourceCode\ecptest\testApi\bin\Debug\netcoreapp2.1\testEcpApi.pdb
+C:\SourceCode\ecptest\testApi\obj\Debug\netcoreapp2.1\testEcpApi.csproj.CoreCompileInputs.cache
+C:\SourceCode\ecptest\testApi\obj\Debug\netcoreapp2.1\testEcpApi.RazorAssemblyInfo.cache
+C:\SourceCode\ecptest\testApi\obj\Debug\netcoreapp2.1\testEcpApi.RazorAssemblyInfo.cs
+C:\SourceCode\ecptest\testApi\obj\Debug\netcoreapp2.1\testEcpApi.AssemblyInfoInputs.cache
+C:\SourceCode\ecptest\testApi\obj\Debug\netcoreapp2.1\testEcpApi.AssemblyInfo.cs
+C:\SourceCode\ecptest\testApi\obj\Debug\netcoreapp2.1\testEcpApi.RazorTargetAssemblyInfo.cache
+C:\SourceCode\ecptest\testApi\obj\Debug\netcoreapp2.1\testEcpApi.dll
+C:\SourceCode\ecptest\testApi\obj\Debug\netcoreapp2.1\testEcpApi.pdb

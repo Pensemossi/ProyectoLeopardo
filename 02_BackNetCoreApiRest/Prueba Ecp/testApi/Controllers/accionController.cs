@@ -1,0 +1,96 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using System;
+using System.Net;
+using System.Text;
+using System.Threading.Tasks;
+using System.Web.Http;
+using testEcpApi.Models;
+using testEcpApi.Service;
+using testEcpApi.Data;
+
+
+namespace testEcpApi.Controllers
+{
+    [Microsoft.AspNetCore.Mvc.Route("api/[controller]")]
+    [ApiController]
+    public class accionController : ControllerBase
+    {
+        private readonly IAccionECPService _service;
+        private readonly IAuthService _serviceAuth;
+
+        public accionController(testContext context)
+        {
+            _service = new AccionEcpService(context);
+            _serviceAuth = new AuthService(context);
+
+        }
+        //********************* INICIO API REST ****************************************************
+        //GET /api/accionecp/
+        /// <summary>
+        /// Recibe usuario y clave en la cabecera del mensaje y si es valida la autenticación
+        /// retorna el atributo token con el valor generado. Valor vacio en caso contrario.
+        /// </summary>
+        [Microsoft.AspNetCore.Mvc.HttpGet]
+        [Microsoft.AspNetCore.Cors.EnableCors("Cors Politica")]
+        public async Task<ActionResult<AccionECPdto>> getAccionEcp()
+        {
+            Int32 unixTimestamp = (Int32)(DateTime.UtcNow.Subtract(new DateTime(1970, 1, 1))).TotalSeconds;
+
+            //Si el mensaje no se recibe con el usuario y token correcto, rechaza la petición
+            if (await ValidateToken() == false)
+            {
+                return Unauthorized();
+            }
+
+            // retorna listado
+            AccionECP accion = await _service.GetAccionEcp();
+            AccionECPdto accionDto = new AccionECPdto();
+
+            accionDto.latestPrice = accion.latestPrice;
+            accionDto.latestUpdate = UnixTimeStampToDateTime(accion.latestUpdate);
+
+
+            return accionDto;
+        }
+
+        //********************* FIN API REST ****************************************************
+
+        /// <summary>
+        /// Valida el Header del mensaje (usuario y token) contra la BD. 
+        /// retorna TRUE si valida el acceso. FALSE en caso contrario.
+        /// </summary>
+        private async Task<Boolean> ValidateToken()
+        {
+            var headtoken = HttpContext.Request.Headers["Token"];
+            var headusuario = HttpContext.Request.Headers["Usuario"];
+
+            var usuario = await _serviceAuth.GetUsuarioById(headusuario);
+
+            //Leer de la BD el usaurio que coincida con el username
+            if (usuario == null)
+            {
+                return (false);
+            };
+
+            //Se valida usuario y token
+            if (usuario.Token != headtoken || usuario.Registro != headusuario)
+            {
+                return (false);
+            };
+
+            return true;
+        }
+        public static DateTime UnixTimeStampToDateTime(double unixTimeStamp)
+        {
+
+            // Format our new DateTime object to start at the UNIX Epoch
+            System.DateTime dateTime = new System.DateTime(1970, 1, 1, 0, 0, 0, 0);
+
+            // Add the timestamp (number of seconds since the Epoch) to be converted
+            dateTime = dateTime.AddSeconds(unixTimeStamp/1000);
+
+            return dateTime;
+        }
+
+    }
+}

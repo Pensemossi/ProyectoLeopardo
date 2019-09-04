@@ -1,0 +1,4 @@
+Sprint 1.  Login, Consulta Preguntas frecuentes
+Sprint 2.  Brent, Acciones
+Sprint 3. Temperatura
+Sprint 4. InMemory para simular SQL-Azure

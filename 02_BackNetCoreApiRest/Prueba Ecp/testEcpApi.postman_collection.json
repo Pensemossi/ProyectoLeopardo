@@ -1,0 +1,304 @@
+{
+	"id": "e9b39793-2d57-2b24-b156-ea8bd61ef8a6",
+	"name": "testEcpApi",
+	"description": "",
+	"order": [
+		"91e840c8-e089-cb79-62e7-ea8d016f292a",
+		"74f5b486-c53f-494c-58fc-1a94046a69c0",
+		"3e2ab701-9139-3f00-7f7b-320041fa9d35",
+		"36ad80f2-d763-afe5-d484-6041ae36c898",
+		"2899ee64-34a7-9676-910d-a2b16a7b79c8",
+		"4e3ae39d-129f-12a3-db43-ea2834d8d252",
+		"69f9f41a-c9ee-eafd-ba9f-5a88209f3d8a",
+		"06ec205d-e7d1-8f5b-53e1-8ca2660f9d0c"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1566261894193,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "06ec205d-e7d1-8f5b-53e1-8ca2660f9d0c",
+			"headers": "Usuario: jochoa\nToken: eebbfa92-2f2e-4bab-b1ba-f397819a57ae\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Usuario",
+					"value": "jochoa",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Token",
+					"value": "eebbfa92-2f2e-4bab-b1ba-f397819a57ae",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://localhost:44359/api/ciudad/14",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1566262874735,
+			"name": "Modificar un registro. Autorizacion copy",
+			"description": "\t",
+			"collectionId": "e9b39793-2d57-2b24-b156-ea8bd61ef8a6",
+			"responses": [],
+			"rawModeData": "{\n    \"id\": 14,\n    \"nombre\": \"Guajira-2\",\n    \"poblacion\": 1\n}"
+		},
+		{
+			"id": "2899ee64-34a7-9676-910d-a2b16a7b79c8",
+			"headers": "Usuario: jochoa\nToken: eebbfa92-2f2e-4bab-b1ba-f397819a57ae\n",
+			"headerData": [
+				{
+					"key": "Usuario",
+					"value": "jochoa",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Token",
+					"value": "eebbfa92-2f2e-4bab-b1ba-f397819a57ae",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://localhost:44359/api/ciudad/13",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1566262821026,
+			"name": "Consultar un registro. Autorizacion",
+			"description": "\t",
+			"collectionId": "e9b39793-2d57-2b24-b156-ea8bd61ef8a6",
+			"responses": []
+		},
+		{
+			"id": "36ad80f2-d763-afe5-d484-6041ae36c898",
+			"headers": "Usuario: jochoa\nToken: 5e412f81-f3df-4499-999f-9ef92c4b6d29\n",
+			"headerData": [
+				{
+					"key": "Usuario",
+					"value": "jochoa",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Token",
+					"value": "5e412f81-f3df-4499-999f-9ef92c4b6d29",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://localhost:44359/api/ciudad",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1566265474252,
+			"name": "Consultar todos. Autorizacion Ok",
+			"description": "\t",
+			"collectionId": "e9b39793-2d57-2b24-b156-ea8bd61ef8a6",
+			"responses": []
+		},
+		{
+			"id": "3e2ab701-9139-3f00-7f7b-320041fa9d35",
+			"headers": "Usuario: jochoa\nToken: 1234521321312\n",
+			"headerData": [
+				{
+					"key": "Usuario",
+					"value": "jochoa",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Token",
+					"value": "1234521321312",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://localhost:44359/api/ciudad",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1566262825169,
+			"name": "Consultar todos. Token invalido",
+			"description": "\t",
+			"collectionId": "e9b39793-2d57-2b24-b156-ea8bd61ef8a6",
+			"responses": []
+		},
+		{
+			"id": "4e3ae39d-129f-12a3-db43-ea2834d8d252",
+			"headers": "Usuario: jochoa\nToken: eebbfa92-2f2e-4bab-b1ba-f397819a57ae\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Usuario",
+					"value": "jochoa",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Token",
+					"value": "eebbfa92-2f2e-4bab-b1ba-f397819a57ae",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://localhost:44359/api/ciudad",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1566262818520,
+			"name": "Agregar un registro. Autorizacion",
+			"description": "\t",
+			"collectionId": "e9b39793-2d57-2b24-b156-ea8bd61ef8a6",
+			"responses": [],
+			"rawModeData": "{\n    \"nombre\": \"Guajira\",\n    \"poblacion\": 1\n}"
+		},
+		{
+			"id": "69f9f41a-c9ee-eafd-ba9f-5a88209f3d8a",
+			"headers": "Usuario: jochoa\nToken: eebbfa92-2f2e-4bab-b1ba-f397819a57ae\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Usuario",
+					"value": "jochoa",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Token",
+					"value": "eebbfa92-2f2e-4bab-b1ba-f397819a57ae",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://localhost:44359/api/ciudad/14",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1566262816000,
+			"name": "Modificar un registro. Autorizacion",
+			"description": "\t",
+			"collectionId": "e9b39793-2d57-2b24-b156-ea8bd61ef8a6",
+			"responses": [],
+			"rawModeData": "{\n    \"id\": 14,\n    \"nombre\": \"Guajira-2\",\n    \"poblacion\": 1\n}"
+		},
+		{
+			"id": "74f5b486-c53f-494c-58fc-1a94046a69c0",
+			"headers": "",
+			"headerData": [],
+			"url": "https://localhost:44359/api/ciudad",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1566262827101,
+			"name": "Consultar todos. Fallo autenticacion",
+			"description": "\t",
+			"collectionId": "e9b39793-2d57-2b24-b156-ea8bd61ef8a6",
+			"responses": []
+		},
+		{
+			"id": "91e840c8-e089-cb79-62e7-ea8d016f292a",
+			"headers": "Authorization: Basic am9jaG9hOjEyMzQ1\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Basic am9jaG9hOjEyMzQ1",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://localhost:44359/api/authenticate/token",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1566264050955,
+			"name": "Login",
+			"description": "\t",
+			"collectionId": "e9b39793-2d57-2b24-b156-ea8bd61ef8a6",
+			"responses": []
+		}
+	]
+}
